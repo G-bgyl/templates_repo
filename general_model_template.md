@@ -73,6 +73,7 @@ Include a few sentences about what goes into your <project_name>/model.
 
 <project_name>'s input takes in `file_id` as as string, `regex_pred` as a string, and so on.
 
+### Input Definitions
 Provide a definition for any field names in the input data that are unclear, e.g., `regex_pred` is the carrier predicted by the regex heuristic.
 
 ## Model Output
@@ -89,6 +90,7 @@ Provide a definition for any field names in the input data that are unclear, e.g
 
 <project_name>'s output is sent to `<database>/<S3 bucket>/<other data location>` and is used by `<downstream_application>` to `<predict_something>`
 
+### Output Definitions
 Provide a definition for any field names in the output data that are unclear.
 
 
