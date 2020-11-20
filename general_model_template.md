@@ -15,8 +15,8 @@ Additional line of information text about what the project does. Your introducti
 
 * __Model Name__: your-model
 * __Model Version__: v0.1.8
-* __Production Model Endpoint__: `https://ambassador.someurl.com/seldon/seldon-system/your-model/api/v0.1/predictions`
-* __Development Model Endpoint__: `https://dev-ambassador.someurl.com/seldon/seldon-system/your-model/api/v0.1/predictions`
+* __Production Model Endpoint__: `https://ambassador.someurl.com/seldon/seldon-system/your-model/api/v0.1.8/predictions`
+* __Development Model Endpoint__: `https://dev-ambassador.someurl.com/seldon/seldon-system/your-model/api/v0.1.8/predictions`
 * __Throughput Considerations__: `batch_size`
 
 See **Model Input** and **Model Output** sections below for model input and output.
