@@ -47,7 +47,7 @@ Include a few sentences about preprocessing the data (if applicable); include li
 ## Building
 
 Talk about building your model here in a few sentences.
- - If Rest API / Seldon: What steps (if any) does a user need to take to build the model? Jenkins should build the model-serving Docker image and push it to ECR.
+ - If Seldon: What steps (if any) does a user need to take to build the model? Jenkins should build the model-serving Docker image and push it to ECR.
  - If Lambda: talk about any relevant details here such as the Lambda function handler, tf-environment including any aditional resources such as IAM, SNS, etc.
  - If Queue (SQS) service: talk about the SQS queue messages (the input to the ML model), the predictions (SNS), and anything else you think might be useful.
 
